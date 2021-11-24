@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Quantox 04</title>
+</head>
+<body>
+    <header>
+        <h2>devfinder</h2>
+        <div class="modes">
+            <div class="light-mode">
+                <h3>LIGHT</h3>
+                <img src="./assets/icon-sun.svg" id="light-pic">
+            </div>
+            <div class="dark-mode">
+                <h3>DARK</h3>
+                <img src="./assets/icon-moon.svg" id="dark-pic">
+            </div>
+        </div>
+    </header>
+    <div class="input-bar">
+        <img src="./assets/icon-search.svg">
+        <input type="text" placeholder="Search GitHub username">
+        <div class="no-results">No results</div>
+        <button>Search</button>
+    </div>
+
+    <div class="data-container">
+        <div class="top-part">
+            <img src="https://avatars.githubusercontent.com/u/583231?v=4" id="avatar-pic">
+            <div class="info-container">
+                <h3 id="name">The Octocat</h3>
+                <p id="atName">@octocat</p>
+                <p id="joined">Joined 25 Jan 2011</p>
+            </div>
+            <p id="bio">Lorem ipsum dolor sit amet,
+                consesctetuer adipiscing elit. Donec
+                odio. Quisque volutpat mattis eros.
+            </p>
+        </div>
+
+        <div class="mid-part">
+            <div class="stats">
+                <p>Repos</p>
+                <p id="repos"><strong>8</strong></p>
+            </div>
+            <div class="stats">
+                <p>Followers</p>
+                <p id="followers"><strong>4060</strong></p>
+            </div>
+            <div class="stats">
+                <p>Following</p>
+                <p id="following"><strong>9</strong></p>
+            </div>
+        </div>
+
+        <div class="bottom-part">
+            <div class="link">
+                <img src="./assets/icon-location.svg">
+                <a href="#" id="location">San Francisco</a>
+            </div>
+            <div class="link">
+                <img src="./assets/icon-website.svg">
+                <a href="#" id="blog">https://github.blog</a>
+            </div>
+            <div class="link not-avaliable">
+                <img src="./assets/icon-twitter.svg">
+                <a href="#" id="twitter">Not available</a>
+            </div>
+            <div class="link">
+                <img src="./assets/icon-company.svg">
+                <a href="#" id="company">@github</a>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
